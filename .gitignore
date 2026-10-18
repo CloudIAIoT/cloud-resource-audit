@@ -1,0 +1,27 @@
+.venv
+
+# Archivos de sesión y temporales de PowerShell
+*.pssc
+*.psd1.bak
+
+# Archivos temporales o de depuración
+*~
+*.tmp
+*.bak
+
+# Credenciales, tokens o variables de entorno sensibles
+.env
+*.pfx
+secrets.json
+
+# Archivos de bytecode de Python
+*.pyc
+
+# Directorios __pycache__
+__pycache__/
+
+# Caché de pytest
+.pytest_cache/
+
+# Configuración local de VS Code
+.vscode/
