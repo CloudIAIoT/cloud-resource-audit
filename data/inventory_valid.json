@@ -1,0 +1,46 @@
+{
+  "inventory_version": "1.0",
+  "resources": [
+    {
+      "id": "vm-web-01",
+      "type": "virtual_machine",
+      "environment": "production",
+      "status": "running",
+      "monthly_cost": 125.50,
+      "tags": {
+        "owner": "platform-team",
+        "criticality": "high"
+      }
+    },
+    {
+      "id": "vm-test-01",
+      "type": "virtual_machine",
+      "environment": "test",
+      "status": "stopped",
+      "monthly_cost": 42.00,
+      "tags": {}
+    },
+    {
+      "id": "storage-prod-01",
+      "type": "storage_account",
+      "environment": "production",
+      "status": "active",
+      "monthly_cost": 18.75,
+      "tags": {
+        "owner": "data-team",
+        "criticality": "medium"
+      }
+    },
+    {
+      "id": "storage-dev-01",
+      "type": "storage_account",
+      "environment": "development",
+      "status": "active",
+      "monthly_cost": 12.00,
+      "tags": {
+        "owner": "dev-team",
+        "criticality": "high"
+      }
+    }
+  ]
+}

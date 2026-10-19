@@ -1,8 +1,4 @@
-.venv
-
-# Archivos de sesión y temporales de PowerShell
-*.pssc
-*.psd1.bak
+.venv/
 
 # Archivos temporales o de depuración
 *~
