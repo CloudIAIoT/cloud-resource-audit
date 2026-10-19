@@ -21,3 +21,4 @@ __pycache__/
 
 # Configuración local de VS Code
 .vscode/
+*.egg-info
