@@ -24,7 +24,7 @@
       "id": "storage-prod-01",
       "type": "storage_account",
       "environment": "production",
-      "status": "active",
+      "status": "good",
       "monthly_cost": 18.75,
       "tags": {
         "owner": "data-team",

@@ -1,0 +1,15 @@
+{
+  "inventory_version": "1.0",
+  "resources": [
+    {"id": "vm-prod-web-01", "type": "virtual_machine", "environment": "production", "status": "running", "monthly_cost": 180.00, "tags": {"owner": "platform-team", "criticality": "high"}},
+    {"id": "vm-dev-api-01", "type": "virtual_machine", "environment": "development", "status": "running", "monthly_cost": 55.00, "tags": {"owner": "dev-team"}},
+    {"id": "storage-prod-backup-01", "type": "storage_account", "environment": "production", "status": "active", "monthly_cost": 40.00, "tags": {"owner": "data-team", "criticality": "medium"}},
+    {"id": "storage-test-logs-01", "type": "storage_account", "environment": "test", "status": "active", "monthly_cost": 9.00, "tags": {"owner": "qa-team"}},
+    {"id": "vm-test-idle-01", "type": "virtual_machine", "environment": "test", "status": "stopped", "monthly_cost": 22.00, "tags": {"owner": "qa-team"}},
+    {"id": "storage-dev-orphan-01", "type": "storage_account", "environment": "development", "status": "active", "monthly_cost": 16.00, "tags": {}},
+    {"id": "vm-dev-unassigned-01", "type": "virtual_machine", "status": "running", "monthly_cost": 48.00, "tags": {}},
+    {"id": "storage-prod-untagged-01", "type": "storage_account", "environment": "production", "status": "active", "monthly_cost": 30.00, "tags": {}},
+    {"id": "vm-prod-untracked-01", "type": "virtual_machine", "status": "stopped", "monthly_cost": 70.00, "tags": {}},
+    {"id": "vm-prod-missing-criticality-01", "type": "virtual_machine", "environment": "production", "status": "running", "monthly_cost": 95.00, "tags": {"owner": "operations-team"}}
+  ]
+}

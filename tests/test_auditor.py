@@ -149,7 +149,7 @@ def test_storage_account_cost():
 
     assert findings == []
 
-def test_production_without_criticaity():
+def test_production_without_criticality():
     resource = {
     "id": "vm-01",
     "type": "virtual_machine",
@@ -171,7 +171,7 @@ def test_production_without_criticaity():
         }
     ]
 
-def test_production_with_criticaity():
+def test_production_with_criticality():
     resource = {
     "id": "vm-01",
     "type": "virtual_machine",
@@ -187,7 +187,7 @@ def test_production_with_criticaity():
 
     assert findings == []
 
-def test_development_with_criticaity():
+def test_development_with_criticality():
     resource = {
     "id": "vm-01",
     "type": "virtual_machine",

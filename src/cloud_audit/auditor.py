@@ -1,7 +1,4 @@
 
-
-
-
 def audit_resource(resource):
 
     findings = []

@@ -30,34 +30,3 @@ def calculate_statistics(inventory, findings):
     
     return statistics
 
-if __name__== "__main__":
-    data = {
-        "inventory_version": "1.0",
-        "resources": [
-            {
-                "id": "vm-prod-01",
-                "type": "virtual_machine",
-                "status": "running",
-                "monthly_cost": 125.50,
-                "tags": {
-                    "owner": "platform-team",
-                    "criticality": "high"
-                },
-                "environment": "production"
-            },
-            {
-                "id": "storage-dev-01",
-                "type": "storage_account",
-                "status": "active",
-                "monthly_cost": 18.75,
-                "tags": {
-                    "owner": "development-team"
-                },
-                "environment": "development"
-            }
-        ]
-    }
-
-    findings = []
-
-    print(calculate_statistics(data, findings))
