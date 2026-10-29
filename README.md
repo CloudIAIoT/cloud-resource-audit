@@ -1,5 +1,7 @@
 # Cloud Resource Audit CLI
 
+[English](README.md) | [Español](docs/README.es.md) | [Português](docs/README.pt.md)
+
 A Python command-line tool for auditing simulated cloud resource inventories, detecting configuration issues, and generating structured reports.
 
 ## Overview
