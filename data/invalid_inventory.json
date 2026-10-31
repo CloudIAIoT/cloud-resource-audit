@@ -25,7 +25,7 @@
       "type": "storage_account",
       "environment": "production",
       "status": "good",
-      "monthly_cost": 18.75,
+      "monthly_cost": -18.75,
       "tags": {
         "owner": "data-team",
         "criticality": "medium"
