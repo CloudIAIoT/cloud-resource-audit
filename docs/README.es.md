@@ -50,7 +50,6 @@ cloud-resource-audit/
 ├── tests/                    # Pruebas automatizadas
 ├── .gitignore
 ├── pyproject.toml
-├── requirements.txt
 └── README.md
 ```
 
@@ -92,6 +91,11 @@ source .venv/bin/activate
 
 ```bash
 python -m pip install -e .
+```
+Instalar con dependencias de desarrollo
+
+```bash
+python -m pip install -e ".[dev]"
 ```
 
 La instalación editable registra el comando `cloud-audit`.

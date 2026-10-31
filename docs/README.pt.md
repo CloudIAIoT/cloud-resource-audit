@@ -93,6 +93,12 @@ source .venv/bin/activate
 ```bash
 python -m pip install -e .
 ```
+Instalação com dependências de desenvolvimento
+
+```bash
+python -m pip install -e .
+```
+
 
 A instalação em modo editável registra o comando `cloud-audit`.
 
