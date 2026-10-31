@@ -50,7 +50,6 @@ cloud-resource-audit/
 ├── tests/                    # Testes automatizados
 ├── .gitignore
 ├── pyproject.toml
-├── requirements.txt
 └── README.md
 ```
 
